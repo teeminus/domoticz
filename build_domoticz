@@ -15,9 +15,10 @@ mkdir -p opt/domoticz
 cd  opt/domoticz
 
 tmp_file="domoticz.tgz"
-	
-wget "${url}" -O $tmp_file
+
+wget "${url}" -O ${tmp_file}
 tar xvzf "${tmp_file}"
 
+rm -f ${tmp_file}
 cd ../../
 fakeroot debian/rules clean binary
