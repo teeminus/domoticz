@@ -2,7 +2,7 @@
 
 case "$(/usr/bin/arch)" in
   *arm*)
-    arch="arm7l"
+    arch="armv7l"
     ;;
   *)
     arch="x86_64"
