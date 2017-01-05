@@ -1,0 +1,10 @@
+Format: http://dep.debian.net/deps/dep5
+Upstream-Name: rclone
+
+Files: *
+Copyright: 2016 OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+License: GPL-3+
+
+Files: rclone
+Copyright: Nick Craig-Wood 2014-2016
+License: MIT

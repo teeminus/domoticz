@@ -1,0 +1,14 @@
+Source: domoticz
+Section: net
+XB-Plugin-Section: utilies
+Priority: optional
+Maintainer: OpenMediaVault Plugin Developers <plugins@omv-extras.org>
+Build-Depends: debhelper (>= 9.0.0), gettext
+Standards-Version: 3.9.6
+Homepage: http://omv-extras.org
+
+Package: domoticz
+Architecture: any
+Depends: ${misc:Depends}
+Priority: optional
+Description: openmediavault domoticz package.
