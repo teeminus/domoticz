@@ -9,6 +9,7 @@ Homepage: http://omv-extras.org
 
 Package: domoticz
 Architecture: any
-Depends: ${misc:Depends}
+Depends: libcurl3,
+         ${misc:Depends}
 Priority: optional
 Description: openmediavault domoticz package.
