@@ -3,7 +3,7 @@ Description=Domoticz Home Automation
 After=network.target
 
 [Service]
-ExecStart=/opt/domoticz -daemon -www 8077 -sslwww 9077
+ExecStart=/opt/domoticz/domoticz -daemon -www 8077 -sslwww 9077
 StandardOutput=null
 KillMode=process
 Restart=on-failure
