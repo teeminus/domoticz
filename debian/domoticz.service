@@ -3,6 +3,7 @@ Description=Domoticz Home Automation
 After=network.target
 
 [Service]
+PIDFile=/var/run/domoticz.pid
 ExecStart=/opt/domoticz/domoticz -daemon -www 8077 -sslwww 8078
 StandardOutput=null
 KillMode=process
