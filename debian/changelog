@@ -1,3 +1,9 @@
+domoticz (3.8153) stable; urgency=low
+
+  * Update to 3.8153
+
+ -- OpenMediaVault Plugin Developers <plugins@omv-extras.org>  Sun, 06 Aug 2017 09:45:09 -0500
+
 domoticz (3.5877) stable; urgency=low
 
   * Initial release
