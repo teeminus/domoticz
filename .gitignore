@@ -44,3 +44,4 @@ debian/*.debhelper
 debian/*substvars
 usr/*
 rclone*
+/debian/changelog
